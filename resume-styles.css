@@ -1,0 +1,112 @@
+head{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background: whitesmoke;
+  }
+
+.mainshit{
+    display: flex;
+}
+
+
+.self{
+    display: block;
+    width: 500px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content:right;
+    flex-direction: row;
+    background: #222222;
+    margin-left: auto;
+}
+
+h2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    font-size: 75px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.pindutan{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.pindutan:hover{
+    background-color: whitesmoke;
+    color: #222222;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.links{
+    display: flex;
+    margin-left: 20px;
+}
+
+.socmed{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.page-title{
+    margin: 0px;
+    font-size: 50px;
+    background: #222222;
+    color: whitesmoke;
+    padding: 25px;
+}
+
+p{
+    color: #222222;
+    font-size: 25px;
+    background: lightgray;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+
+    border: 4px solid #222222;
+    border-radius: 20px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.back {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.botun1{
+    text-decoration: none;
+    color: #222222;
+}
+
+.botun{
+    font-size: 25px;
+    border-radius: 5px;
+
+}
